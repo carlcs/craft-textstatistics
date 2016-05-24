@@ -1,0 +1,10 @@
+{
+  "name": "carlcs/craft-textstatistics",
+  "description": "Text Statistics plugin for Craft CMS",
+  "type": "craft-plugin",
+  "require": {
+    "composer/installers": "~1.0",
+    "php": ">=5.4.0",
+    "davechild/textstatistics": "1.0.1"
+  }
+}
