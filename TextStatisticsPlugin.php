@@ -48,7 +48,7 @@ class TextStatisticsPlugin extends BasePlugin
 
     public function addTwigExtension()
     {
-        Craft::import('plugins.textstatistics.twigextensions.textStatisticsTwigExtension');
-        return new textStatisticsTwigExtension();
+        Craft::import('plugins.textstatistics.twigextensions.TextStatisticsTwigExtension');
+        return new TextStatisticsTwigExtension();
     }
 }
